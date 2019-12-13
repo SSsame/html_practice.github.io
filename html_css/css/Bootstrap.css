@@ -1,0 +1,11 @@
+body{
+	padding: 5% 10%;
+}
+.Lorem{
+	color: tomato;
+	text-align: justify;
+}
+.text{
+	display: inline-block;
+	background-color: lightblue;
+}
