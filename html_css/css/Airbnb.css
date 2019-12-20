@@ -1,0 +1,303 @@
+body{
+	font-family: Meiryo;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.responsive{
+	visibility: hidden;
+}
+
+.header{
+	background-color: white;
+	width: 100%;
+	margin-top: -8px;
+	z-index: 100;
+}
+
+.header > a{
+	color: rgb(100,100,100);
+	font-weight: bolder;
+	font-size: 17px;
+	margin-top: 10px;
+	padding: 0 10px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.header > a:hover{
+	text-decoration: underline;
+}
+
+.logo{
+	padding: 0;
+	height: 70px;
+}
+
+#header_right{
+	float: right;
+	display: inline-flex;
+}
+
+#header_right img{
+	height: 13px;
+}
+
+.header_p{
+	color: rgb(100,100,100);
+	margin-top: 20px;
+}
+
+#header_month{
+	padding: 10px;
+}
+
+#header_cost{
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+#header_right button{
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	background-color: red; 
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 14px;
+	margin-right: 70px;
+}
+
+.handshake{
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/handshake.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.handshake_right h1{
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 700;
+}
+
+.handshake p{
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.container{
+	padding: 0;
+}
+
+.handshake select{
+	font-size: 20px;
+	font-weight: lighter;
+	margin: 6px 0;
+	padding: 5px 0;
+	border-color: #e0e0e0;
+	border-radius: 5px;
+}
+
+.handshake_right h2{
+	font-size: 48px;
+	padding-right: 10px;
+}
+
+.handshake_right img{
+	height: 13px;
+	width: 13px;
+}
+
+#per_month{
+	display: flex;
+	align-items: baseline;
+}
+
+.handshake_right button{
+
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	background-color: tomato; 
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.contain{
+	width: 70%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.contain > div{
+	margin: 0 30px
+}
+
+.contain h2{
+	color: #505050;
+	font-weight: 600;
+}
+
+.contain > div{
+	display: inline-block;
+	padding: 0;
+}
+
+.contain h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.contain a{
+	color: steelblue;
+}
+
+.check{
+	width: 100px;
+	margin: 30px;
+}
+
+.img_align img{
+	margin: 0 50px;
+}
+
+.img_align h1{
+	font-size: 80px;
+	color: orange;
+}
+
+ .img_align h2{
+ 	font-size: 40px;
+ }
+
+ .img_align button{
+ 	font-size: 18px;
+ 	font-weight: 600;
+ 	padding: 12px 40px;
+ 	background-color: white;
+ 	border-radius: 5px;
+}
+
+.question{
+	width: 60%;
+	margin: auto;
+	list-style: none;
+}
+
+.question li{
+	padding: 30px;
+	border-bottom: 1px solid lightgray;
+}
+
+.question a{
+	font-size: 18px;
+	color: steelblue;
+}
+
+.detail,
+.details{
+	margin: auto;
+	font-weight: 600;
+}
+
+.detail{
+	padding-top: 100px;
+	width: 60%;
+}
+
+.details{
+	display: inline-block;
+	box-shadow: 1px 1px 4px gray;
+	height: 300px;
+	margin: 0 0;
+}
+
+.details img{
+	width: 100%;
+}
+
+.inline-block{
+	display: inline-block;
+	padding: 0;
+}
+
+.proposal{
+	width: 100%;
+	background-image: url("../img/stock-photo-beautiful-violet-flowers-on-white-background-299826269.jfif");
+	height: 600px;
+}
+
+.proposal div{
+	height: 150px;
+	display: block;
+}
+
+.proposal h1{
+	font-size: 48px;
+	font-weight: 600;
+	text-align: left;
+	padding-top: 100px;
+}
+
+.proposal button{
+	margin-top: 30px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 24px;
+	background-color: white;
+
+}
+
+footer{
+	padding-top: 120px;
+}
+
+.footer{
+	margin: auto;
+	border-bottom: 1px solid lightgray;
+}
+
+.footer h4,a{
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 4px 0;
+}
+
+.footer a{
+	display: block;
+	color: gray;
+}
+
+.footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.footer ul :first-child{
+	padding-left: 0;
+}
+
+.company_info{
+	height: 150px;
+	width: 80%;
+	margin: auto;
+}
+
+.company_info p{
+	padding-top: 50px;
+	font-size: 16px;
+	font-weight: bolder;
+	color: gray;
+}

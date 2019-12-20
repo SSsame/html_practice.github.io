@@ -1,0 +1,96 @@
+@media screen and (min-width: 1280px){
+	header{
+		position: fixed;
+	}
+	.handshake{
+		background-size: cover;
+		height: 900px;
+	}
+
+	.handshake_right{
+	margin-top:150px;
+	margin-right: 80px;
+	padding: 20px;
+	background-color: white;
+	float: right;
+	width: 530px;
+	color: rgb(60,60,60);
+	border-radius: 8px;
+	}
+}
+
+@media screen and (max-width: 1280px){
+	header{
+		display:none;
+	}
+	.handshake{
+	}
+	.handshake_right {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 500px;
+	}
+	.responsive{
+		visibility: visible;
+	}
+	.logo{
+		position: absolute;
+		margin-left: -7px;
+	}
+
+	.handshake{
+	}
+	.handshake h1{
+		font-size: 48px;
+		color: rgb(150,150,150);
+		margin-top: -161px;
+		height: 161px;
+	}
+
+	#stuffing{
+		height: 300px;
+	}
+
+	.img_align h2{
+		font-size: 32px;
+	}
+
+	.img_align button{
+		padding: 12px 20px;
+	}
+}
+
+@media screen and (max-width: 991px){
+	#stuffing{
+		height: 350px;
+	}
+
+	.proposal button{
+		margin-top: 80px;
+	}
+
+	.img_align img{
+	width: 90%;
+
+	}
+
+	.img_align h1{
+		font-size: 60px;
+	}
+
+	.img_align h2{
+		font-size: 24px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.contain{
+	display: flex;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.footer{
+		display: none;
+	}
+}
