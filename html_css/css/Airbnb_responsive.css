@@ -81,6 +81,11 @@
 	.img_align h2{
 		font-size: 24px;
 	}
+
+	.details{
+		height: auto;
+		min-width: 80%;
+	}
 }
 
 @media screen and (min-width: 1200px){
@@ -89,7 +94,7 @@
 	}
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
 	.footer{
 		display: none;
 	}

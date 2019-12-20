@@ -134,17 +134,14 @@ body{
 }
 
 .contain > div{
-	margin: 0 30px
+	margin: 0 auto;
+	display: inline-block;
+	padding: 0;
 }
 
 .contain h2{
 	color: #505050;
 	font-weight: 600;
-}
-
-.contain > div{
-	display: inline-block;
-	padding: 0;
 }
 
 .contain h1{
@@ -215,8 +212,8 @@ body{
 .details{
 	display: inline-block;
 	box-shadow: 1px 1px 4px gray;
-	height: 300px;
-	margin: 0 0;
+	height: auto;
+	margin: 30px 0;
 }
 
 .details img{
@@ -225,7 +222,6 @@ body{
 
 .inline-block{
 	display: inline-block;
-	padding: 0;
 }
 
 .proposal{
